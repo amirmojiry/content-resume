@@ -2,10 +2,14 @@
 @import "base/variables.scss";
 
 // Import Bootstrap
-@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap/bootstrap.scss";
 
 // Import base styles
 @import "base/page.scss";
+@import "base/mixins.scss";
+
+// Import fonts
+@import "components/fonts.scss";
 
 // Import components styles
 @import "components/divider.scss";
