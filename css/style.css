@@ -384,6 +384,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .display-1 {
@@ -8397,10 +8398,10 @@ body {
     font-size: 1.5rem;
   }
 }
-.specialties {
+.skill {
   margin-bottom: -30px;
 }
-.specialties .specialties-item {
+.skill .skill-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -8409,7 +8410,7 @@ body {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.specialties .specialties-item .specialties-item-caption {
+.skill .skill-item .skill-item-caption {
   position: absolute;
   top: 0;
   right: 0;
@@ -8417,24 +8418,24 @@ body {
   opacity: 0;
   background-color: rgba(44, 62, 80, 0.9);
 }
-.specialties .specialties-item .specialties-item-caption:hover {
+.skill .skill-item .skill-item-caption:hover {
   opacity: 1;
 }
-.specialties .specialties-item .specialties-item-caption .specialties-item-caption-content {
+.skill .skill-item .skill-item-caption .skill-item-caption-content {
   font-size: 1.5rem;
 }
 
-.specialties-modal .specialties-modal-title {
+.skill-modal .skill-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
-  .specialties-modal .specialties-modal-title {
+  .skill-modal .skill-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
 }
-.specialties-modal .close {
+.skill-modal .close {
   position: absolute;
   z-index: 1;
   right: 1.5rem;
@@ -8473,12 +8474,12 @@ body {
 }
 
 .workexperience-modal .workexperience-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 @media (min-width: 992px) {
   .workexperience-modal .workexperience-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -8569,12 +8570,12 @@ body {
 }
 
 .education-modal .education-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 @media (min-width: 992px) {
   .education-modal .education-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
